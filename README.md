@@ -36,7 +36,7 @@ This makes the system cheaper, more controllable, and easier to reason about.
 ---
 
 ## Project Structure
-
+```
 src/
 ├── agentloop.py # Core agent loop and action router
 ├── llm.py # LLM client setup
@@ -45,7 +45,7 @@ src/
 └── tools/
 ├── dirscanner.py # Repository traversal and file reading
 └── filewrite.py # Markdown output writer
-
+```
 ---
 
 ## How It Works (High Level)
